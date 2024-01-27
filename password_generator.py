@@ -12,7 +12,7 @@ my_password = ""
 
 # Loop to generate the password of the specified length
 for i in range(password_len):
-    my_password += random.choice(string.ascii_letters)
+    my_password += random.choice(string.printable)
 
 # Print the generated password
 print("Your new password: ", my_password)
